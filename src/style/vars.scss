@@ -1,0 +1,21 @@
+$text-small: 0.7rem;
+
+$tariff-1-color-name:#229cab;
+$tariff-2-color-name: #1f8972;
+$tariff-3-color-name: #c4554e;
+$tariff-4-color-name: #282f37;
+
+$tariff-1-color-price:#2cc1d5;
+$tariff-2-color-price: #24ae8d;
+$tariff-3-color-price: #f46a5f;
+$tariff-4-color-price: #333a44;
+
+$title-color: #edfefc;
+$text-color: #9b9b9b;
+
+%flex-element-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

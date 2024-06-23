@@ -1,0 +1,39 @@
+@import '/src/style/vars.scss';
+
+.tariff-option{
+    &.tariff-1 {
+        .tariff-name {
+            background-color: $tariff-1-color-name;
+        }
+        .tariff-price {
+            background-color: $tariff-1-color-price;
+        }
+    }
+    &.tariff-2 {
+        .tariff-name {
+            background-color: $tariff-2-color-name;
+        }
+        .tariff-price {
+            background-color: $tariff-2-color-price;
+        }
+    }
+    &.tariff-3 {
+        .tariff-name {
+            background-color: $tariff-3-color-name;
+        }
+        .tariff-price {
+            background-color: $tariff-3-color-price;
+        }
+        transform: scale(1.1);
+        z-index: 10;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);  
+    }
+    &.tariff-4 {
+        .tariff-name {
+            background-color: $tariff-4-color-name;
+        }
+        .tariff-price {
+            background-color: $tariff-4-color-price;
+        }
+    }
+}
