@@ -22,11 +22,11 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 
-    &.highlight {
+    &.active{
       transform: scale(1.1);
       z-index: 10;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-    }
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);  
+      }
 
     .tariff-name {
       flex-grow: 1;
